@@ -1,0 +1,26 @@
+/* frontend/src/app/globals.css */
+
+/* Import Tailwind's base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply a default font family for the entire application */
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+/* Optional: Custom styles or overrides can be added here */
+/* For example, to style the scrollbar for a specific look */
+/*
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+*/
